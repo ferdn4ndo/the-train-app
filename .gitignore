@@ -1,0 +1,25 @@
+__pycache__
+tags
+.tags
+.DS_Store
+db.sqlite3
+.env
+.log
+venv
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+code/app/logs/*
+!code/app/logs/.gitkeep
+
+# Results
+code/app/data/*
+!code/app/data/.gitkeep
+
+# Logs
+code/app/temp/*
+!code/app/temp/.gitkeep
+

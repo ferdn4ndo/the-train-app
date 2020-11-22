@@ -1,0 +1,13 @@
+ffmpeg~=1.4
+starlette~=0.14.1
+fastapi~=0.61.2
+lxml~=4.6.1
+pyjwt~=1.7.1
+uvicorn~=0.12.2
+tinydb~=4.3.0
+pyyaml~=5.3.1
+Pillow~=8.0.1
+numpy~=1.19.4
+ffmpeg-python==0.2.0
+pytest~=6.1.2
+matplotlib~=3.3.3

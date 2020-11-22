@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  the-train-app:
+    container_name: the-train-app
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./code:/code
+    ports:
+      - "8000:8000"
+    expose:
+      - 8000
